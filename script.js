@@ -1,14 +1,14 @@
 class song{
-     constructor(name, genre, theme, artist){
+     constructor(name, genre, potd, artist){
           this.name=name;
           this.genre=genre;
-          this.theme=theme;
+          this.potd=potd;
           this.artist=artist;
      }
 }
 
-const a = new song("Song 1",  2, 5 ,"Artist 1",);
-const b = new song("Song 2", 1,6, "Artist 2", );
+const a = new song("Song 1",  2, 7 ,"Artist 1");
+const b = new song("Song 2", 1,13, "Artist 2");
 const c = new song("Song 3", 1,10 ,"Artist 3");
 
 const songs= [a, b, c];
