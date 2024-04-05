@@ -7,15 +7,12 @@ class song{
      }
 }
 
-
 const a = new song("Song 1",  "Genre 1", "theme1" ,"Artist 1",);
 const b = new song("Song 2", "Genre 2","theme2", "Artist 2", );
 const c = new song("Song 3", "Genre 3","theme3" ,"Artist 3");
 
 const songs= [a, b, c];
 
-
-     // Function to dynamically  recently played songs
 function RecentlyPlayed() {
      const recentlyPlayedList = document.getElementById("recentlyPlayed");
      songs.forEach(song => {
@@ -25,7 +22,8 @@ function RecentlyPlayed() {
           });
  }
 
-     // Function to dynamically  artists
+ 
+
 function Artists() {
      const artistsList = document.getElementById("artists");
      songs.forEach(song => {
@@ -35,7 +33,6 @@ function Artists() {
      });
  }
 
-     // Function to dynamically  genres
 function Genres() {
      const genresList = document.getElementById("genres");
      songs.forEach(song => {
