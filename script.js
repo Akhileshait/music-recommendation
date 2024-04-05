@@ -83,7 +83,8 @@ function recommend(songs) {
 recommend(songs);
 
 
-resultsong();
+
 RecentlyPlayed();
 Artists();
 Genres();
+resultsong();
