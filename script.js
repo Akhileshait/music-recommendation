@@ -11,7 +11,7 @@ const a = new song("Song 1",  2, 7 ,"Artist 1");
 const b = new song("Song 2", 1,13, "Artist 2");
 const c = new song("Song 3", 1,10 ,"Artist 3");
 
-const songs= [a, b, c];
+const songs= [a, b, c]; 
 
 const result=[]
 
