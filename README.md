@@ -5,7 +5,7 @@
  1. Clone the repo:
  
  ```
-  
+  git clone link
 ```
 
 2. Chandge directory
