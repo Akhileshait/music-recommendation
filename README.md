@@ -8,12 +8,12 @@
   git clone link
 ```
 
-2. Chandge directory
+2. Change directory
 
 ```
   cd Backend
 ```
-3. Run Backend
+3. Run Server on your Local Machine
 ```
   npm i
 ```
